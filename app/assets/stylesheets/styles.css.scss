@@ -1,0 +1,28 @@
+$baseFontFamily: Gabriela;
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+
+$btnPrimaryBackground: purple;
+
+$navbarBrandColor: purple;
+$navbarBackground: white;
+
+
+@import 'bootstrap';
+
+@import 'bootstrap-responsive';
+
+
+
+body {
+	padding-top: 60px;
+	
+}
+
+.footer{
+    margin-top: 50px;
+    color: $grayLight;
+    a{
+        color: $gray;
+    }
+}
